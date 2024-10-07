@@ -1,17 +1,12 @@
 import s from "./Navbar.module.css";
-
-/*let s = {
-  nav: ".Navbar_nav__qsnK9",
-  item: ".Navbar_item__1AU57",
-};*/
 const Navbar = () => {
   return (
     <nav className={s.nav}>
       <div className={s.item}>
-        <a>Profil</a>
+        <a href="/profile">Profil</a>
       </div>
       <div className={s.item}>
-        <a>Messages</a>
+        <a href="/dialogs">Messages</a>
       </div>
       <div className={s.item}>
         <a>News</a>
