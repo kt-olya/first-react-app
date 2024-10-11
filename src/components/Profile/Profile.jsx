@@ -5,7 +5,7 @@ const Profile = () => {
   return (
     <div>
       <div>
-        <img src="https://img2.wtftime.ru/store/2017/06/09/Llv7KKZp.jpg"></img>
+        <img src="fon.jpg" className={s.fon} />
       </div>
       <div>ava + description</div>
       <MyPosts />

@@ -2,3 +2,7 @@
   grid-area: c;
   background-color: rgb(186, 228, 252);
 }
+.fon {
+  width: 100%;
+  height: auto;
+}
